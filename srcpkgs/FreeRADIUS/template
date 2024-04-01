@@ -38,7 +38,6 @@ post_install() {
 	rm ${_CERTDIR}/serial*
 	rm ${_CERTDIR}/*.der
 	rm ${_CERTDIR}/*dh*
-	rm ${_CERTDIR}/bootstrap
 
 	# Install the service
 	vsv FreeRADIUS
